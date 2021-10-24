@@ -11,7 +11,7 @@ def test_check_add_to_basket_is_available(browser):
 
     add_to_basket_button = None
     try:
-        add_to_basket_button = browser.find_element(By.CSS_SELECTOR, ".btn-add-to-basket123")
+        add_to_basket_button = browser.find_element(By.CSS_SELECTOR, ".btn-add-to-basket")
     except selenium.common.exceptions.NoSuchElementException:
         add_to_basket_button = False
 
