@@ -1,8 +1,4 @@
-import time
-
-import selenium.common.exceptions
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
 
 link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
 
